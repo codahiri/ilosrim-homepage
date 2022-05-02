@@ -1,7 +1,6 @@
 import Head from "next/head"
 import Navbar from "../navbar"
 import { Box, Container } from "@chakra-ui/react"
-import { route } from "next/dist/server/router"
 
 const Main = ({children, router}) => {
 	return (
