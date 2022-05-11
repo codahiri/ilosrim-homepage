@@ -28,7 +28,7 @@ const Page = ()=> {
 			<Box display={{md:'flex'}}>
 				<Box flexGrow={1}>
 					<Heading as="h2" variant="page-title">
-						Mirsoli Mirsultonov
+						Mirsoli aKa <span style={{color: 'orange'}}>ilosrim</span>
 					</Heading>
 					<p>Digital Craftzman ( Bioinformatic / Developer / Designer )</p>
 				</Box>
@@ -83,20 +83,17 @@ const Page = ()=> {
 					Completed the Bachelor&apos;s degree in the Biology at National universitet of Uzbekistan
 				</BioSection>
 				<BioSection>
-					<BioYear>2022 to present</BioYear>
+					<BioYear>2022</BioYear>
 					Works as Bioinformatics at the Institute of Bioorganics
 				</BioSection>
 			</Section>
 
 			<Section delay={0.3}>
-				<Heading as="h3" variant="section-title">
+				<Heading as="h1" variant="section-title">
 					I 🖤
 				</Heading>
 				<Paragraph>
-					Art, Music, {' '}
-					<Link href="https://books.google.com/">
-						Reading
-					</Link>
+					<i>Reading, Coding, Hacking</i>
 				</Paragraph>
 			</Section>
 		</Container>

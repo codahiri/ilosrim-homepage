@@ -31,7 +31,7 @@ const Logo = () => {
                         ml={3}
 												display="inline-block"
                     >
-                        ilosrim
+                        Mirsoli Mirsultonov
                     </Text>
                 </LogoBox>
             </a>
